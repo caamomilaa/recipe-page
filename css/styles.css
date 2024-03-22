@@ -11,3 +11,52 @@ img {
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: "Outfit", sans-serif;
+}
+.header-info,
+main {
+  margin: 24px;
+}
+.title {
+  font-family: "Young Serif", serif;
+  font-size: 2.25rem;
+  color: #312e2c;
+}
+.text {
+  color: #5f564d;
+}
+.bold {
+  font-weight: 700;
+  color: #5f564d;
+}
+.subtitle {
+  font-family: "Young Serif", serif;
+  font-size: 1.75rem;
+  color: #854632;
+}
+.small-subtitle {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #7a284e;
+}
+.preparation-list {
+  width: 19.4375rem;
+  height: 12.25rem;
+  background-color: #fff7fb;
+  border-radius: 12px;
+  padding: 8px 16px;
+  margin-inline: auto;
+}
+.preparation {
+  padding-left: 16px;
+}
+.ingredients {
+  padding-left: 16px;
+}
+.instructions {
+  padding-left: 16px;
+}
+.list-item {
+  margin-bottom: 16px;
+}
