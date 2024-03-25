@@ -48,15 +48,67 @@ main {
   padding: 8px 16px;
   margin-inline: auto;
 }
+@media screen and (width >= 768px) {
+ .preparation-list {
+  display:inline-block;
+  width: 656px;
+  height: 180px;
+ }
+}
 .preparation {
   padding-left: 16px;
 }
 .ingredients {
   padding-left: 16px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid  #E3DDD7 ;
 }
 .instructions {
   padding-left: 16px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid  #E3DDD7 ;
 }
 .list-item {
   margin-bottom: 16px;
+}
+.ingredients ::marker{
+  color: #7a284e;
+}
+.preparation ::marker{
+  color: #7a284e;
+}
+.instructions ::marker{
+  color: #7a284e;
+}
+.nutrition{
+  list-style: none;
+  padding-left: 16px;
+}
+.nutrition-calories{
+  color: #312e2c;
+  margin-right: 16px;
+  padding-bottom:  8px;
+  border-bottom: 2px solid  #E3DDD7 ;
+}
+.nutrition-carbs{
+  color: #312e2c;
+  margin-right: 16px;
+  padding: 8px;
+  border-bottom: 2px solid  #E3DDD7 ;
+}
+.nutrition-protein{
+  color: #312e2c;
+  margin-right: 16px;
+  padding: 8px;
+  border-bottom: 2px solid  #E3DDD7 ;
+}
+.nutrition-fat{
+  color: #312e2c;
+  padding: 8px;
+  margin-right: 16px;
+}
+.nutrition-value{
+  color: #7a284e;
+  font-weight: 700;
+  padding-left: 48px;
 }
